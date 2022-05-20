@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Home Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Start of Header !-->
+    <div class="header">
+        <div class="headertext">
+            <img src="logo.png" id="logo">
+            <p id="job"><b>Developer</b></p>
+            <p id="description">Below are the list of projects that I have completed in class and uploaded to GitHub.</p>
+            <br>
+            <button onclick="copyToClipBoard()" class="button1" id="myInput">bcasey206@west-mec.org</button>
+            <a href="#projecttitle" button class="button2">⇩ View Projects</a>
+            <!-- <button class="button2" id="section1">⇩ View Projects</button> -->
+        </div>
+    </div>
+<!-- End of Header !-->
+    <div class="header2">
+        <br>
+        <br>
+        <br>
+        <p id="projecttitle"><b>My Recent Work</b></p>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="form.png" width="200px" height="200px">
+            <h1>Form</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/blakecasey.github.io-validationform/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="quiz.png" width="200px" height="200px">
+            <h1>Quiz</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/blakecasey.github.io-quiz/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="calculator.png" width="200px" height="200px">
+            <h1>Calculator</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/blakecasey.github.io-calculator/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="button.png" width="200px" height="200px">
+            <h1>Button</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/blakecasey.github.io-buttonhover/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="animation.png" width="200px" height="200px">
+            <h1>Animation</h1>
+            <p></p> 
+            <a href="https://blakecasey.github.io/blakecasey.github.io-stylishgirl/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="tic-tac-toe.png" width="200px" height="200px">
+            <h1>Tic Tac Toe</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/blakecasey.github.io-tictactoe/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="clock.png" width="200px" height="200px">
+            <h1>Digital Clock</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/digital-clock/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="website.png" width="200px" height="200px">
+            <h1>E-Commerence</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/bootstrap/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="hosting-plan.png" width="200px" height="200px">
+            <h1>Hosting Plan</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/hosting-plan/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="portfolio.png" width="200px" height="200px">
+            <h1>Portfolio</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/portfolio/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="place.png" width="200px" height="200px">
+            <h1>Places & Maps</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/json-places/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="landing-page.png" width="200px" height="200px">
+            <h1>Landing Page</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/landing-page/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="jquery.png" width="200px" height="200px">
+            <h1>JQuery Website</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/jquery/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+        <div class="grid-item">
+            <img src="calendar.png" width="200px" height="200px">
+            <h1>Calender</h1>
+            <p></p>
+            <a href="https://blakecasey.github.io/calender/" target="_blank" id="visit"><b>Visit</b></a>
+        </div>
+      </div>
+      <script>
+function copyToClipBoard() {
+
+var content = document.getElementById('myInput');
+
+content.select();
+document.execCommand('copy');
+
+alert("Copied!");
+}
+        </script>
+</body>
+</html>
